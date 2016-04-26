@@ -3,10 +3,33 @@
 
 ### Workflow
 
-This is where we will document our workflow.
+#### Readme
+This is where we will document our workflow. The readme file will be shared on the master branch and should be updated as team members merge to their respective master branches and push to Github's master.
 
+#### Git Workflow
+
+* Each team member will create their own personal copy of the master branch.
+* When a team member wishes to build a component or edit existing code they will create and checkout a new branch
+* Upon completion of code editing or component completion. Team members will follow these steps:
+  *  Pull from master branch on Github repository to insure code is up-to-date. 
+  *  Then merge checked out branch with edits into your personal copy of the master branch and resolve any conflicts, if present.
+  *  Finally push master to Github to update the project with your changes.
+  
+#### Component Division 
+Cheat sheet work load divided up by identified components.
+
+1. General Styling and Basic Examples **(Jayme Phimmachack)**
+2. Section Containers **(Kevin Lufkin)**
+3. Browser Compatibility **(Kevin Lufkin)**
+4. Footnotes and References **(Jayme Phimmachack)**
+5. Sidebar Information **(Jayme Phimmachack)**
 
 ### Work Updates
 
-This is where we can list summaries of the work we've performed on the repository and the date completed.
+This is where we can list summaries of the work we've performed on the repository and the date completed. If a task spans multiple days use the following syntax: "start date - end date".
+
+1. Propose initial project workflow, Readme, and Git workflow **(Kevin Lufkin) (04/25-26/16)**
+2. Identify major components of cheatsheet - 5 were identified **(Jayme Phimmachack, Kevin Lufkin) (04/25-26/16)**
+3. Identified General HTML elements of page structure **(Jayme Phimmachack) (04/26/16)**
+4. Prep CSS and JS File **(Kevin Lufkin) (04/26/16)**
 
