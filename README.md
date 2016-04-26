@@ -1,7 +1,7 @@
 # encyclopedia-browser-support-component
 
 
-### Workflow
+## Workflow
 
 #### Readme
 This is where we will document our workflow. The readme file will be shared on the master branch and should be updated as team members merge to their respective master branches and push to Github's master.
@@ -24,7 +24,7 @@ Cheat sheet work load divided up by identified components.
 4. Footnotes and References **(Jayme Phimmachack)**
 5. Sidebar Information **(Jayme Phimmachack)**
 
-### Work Updates
+## Work Updates
 
 This is where we can list summaries of the work we've performed on the repository and the date completed. If a task spans multiple days use the following syntax: "start date - end date".
 
