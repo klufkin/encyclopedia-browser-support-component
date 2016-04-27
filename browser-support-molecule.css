@@ -1,0 +1,28 @@
+
+/* Base Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.618em;
+}
+
+/* Browser Support Molecule */
+.browser-support {
+  width: 100%;
+}
+
+/*----- General Styling -----*/
+
+/*----- Basic Examples (Component 1) -----*/
+
+/*----- Section Containers (Component 2) -----*/
+
+/*----- Browser Compatibility (Component 3) -----*/
+
+/*----- Footnotes & Reference (Component 4) -----*/
+
+/*----- Sidebar (Component 5) -----*/
