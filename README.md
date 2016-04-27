@@ -32,4 +32,5 @@ This is where we can list summaries of the work we've performed on the repositor
 2. Identify major components of cheatsheet - 5 were identified **(Jayme Phimmachack, Kevin Lufkin) (04/25-26/16)**
 3. Identified General HTML elements of page structure **(Jayme Phimmachack) (04/26/16)**
 4. Prep CSS and JS File **(Kevin Lufkin) (04/26/16)**
+5. Code HTML elements for assigned components **(Jayme Phimmachack) (04/27/16)**
 
