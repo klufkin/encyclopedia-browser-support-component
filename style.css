@@ -1,0 +1,191 @@
+Jaymes
+
+
+Search Drive
+
+Drive
+.
+Folder Path
+My Drive
+Mod Dev
+NEW 
+Folders and views
+My DriveCollapsed
+Shared with me
+Google Photos
+Recent
+Starred
+Trash
+Get Drive for Mac
+3 GB of 15 GB used
+Upgrade storage
+.
+
+Image
+4vsEw1M.jpg
+
+HTML
+index.html
+
+HTML
+index2.html
+
+HTML
+index3.html
+
+Style Sheet
+style.css
+Get notifications on your computer for shared files and important events.
+TURN ON
+
+All selections cleared 
+
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+body {
+ font-family: 'Roboto', sans-serif;
+
+}
+.border {
+        border: 1px solid gray;
+        width: auto;
+    }
+
+
+
+#container { 
+ margin-left: 130px;
+ 
+}
+
+
+#main,#sidebar {
+  
+/*  border: 1px solid black; 
+  
+  
+  padding: 10px; */
+  float: left;
+
+}
+
+
+#main {
+ 
+  width: 500px;
+  padding: 10px 10px 30px 0;
+  
+  
+
+}
+
+#sidebar {
+ 
+  border-left: 1px solid #d279a6;
+  width: 300px;
+  padding: 20px 0 0 20px;
+  
+
+}
+
+
+#footer {
+  border: 1px solid black;
+  clear: both;
+  width: 1060px;
+  padding: 10px;
+  
+
+}
+
+
+
+button {
+   border-radius: 5px; 
+   color: #ffffff;
+   border-color: #00c5e3;
+  background-color: #00c5e3;
+  padding: 10px;
+ 
+
+}
+
+
+
+
+button:active {
+  
+  border-color: white;
+  background-color: red;
+  color: white
+ 
+ 
+  
+
+}
+
+
+.example {
+   border: 1px solid #00c5e3;
+   border-radius: 5px;
+   margin-top: 10px;
+   padding: 10px;
+}
+
+
+
+#sidebar h3 {
+  
+   color: #d279a6;
+
+}
+
+
+#sidebar h4 {
+
+  color: #4d1933;
+
+}
+
+#mod_dev {
+  color: #bf4080;
+
+}
+
+
+
+
+h1, h3, p {
+  margin-top: 0px;
+}
+
+
+#line_height {
+  line-height: 8px;
+
+} 
+
+#sidediv {
+   border: 1px solid #e6b3cc;
+   width: auto;
+   margin: 20px;
+
+}
+
+
+.left-triangle {
+  
+
+}
+
+
+
+.right-triangle {
+
+}
