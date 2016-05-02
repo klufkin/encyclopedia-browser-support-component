@@ -34,4 +34,5 @@ This is where we can list summaries of the work we've performed on the repositor
 4. Prep CSS and JS File **(Kevin Lufkin) (04/26/16)**
 5. Code HTML elements for assigned components **(Jayme Phimmachack) (04/27/16)**
 6. Add some CSS style - Need to tweak it to get it similar to project example **(Jayme Phimmachack) (04/28/16)**
+7. Add html class and also add and modify CSS style - Still need minor adjustment**(Jayme Phimmachack) (05/01/16)**
 
