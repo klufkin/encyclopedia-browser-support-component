@@ -1,3 +1,7 @@
+h1, h2, h3, h4, h5, div, section, header, p {
+	margin: 0;
+}
+
 section {
 	margin: 20px;
 	border: 1px solid #ff73b7;
@@ -6,6 +10,8 @@ section {
 }
 
 section > header {
+	display: flex;
+  justify-content: space-between;
 	background-color: #ff73b7;
 	padding: 20px 40px;
   border-radius: 4px;
@@ -16,8 +22,25 @@ section > header {
 
 section > header > h3 {
 	font-size: 26px;
-  font-weight: 400;
+  font-weight: 500;
 	margin: 0;
+}
+
+.section-dropdown span {
+	display: inline-block;
+  height: 4px;
+  width: 24px;
+	border-radius: 2px;
+	background-color: #fff;
+}
+
+.section-dropdown span:first-child{
+	transform: rotate(-45deg) translateY(-6px);
+	margin-right: -22px;
+}
+
+.section-dropdown span:nth-child(2) {
+	transform: rotate(45deg) translateY(-6px);
 }
 
 section > main {
@@ -31,9 +54,170 @@ section > main > * {
 section > main > h4{
 	margin-bottom: 4px;
 	font-size: 20px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 section > main > h4 + p {
 	margin-bottom: 20px;
 }
+
+section > main > p {
+	margin-bottom: 6px;
+
+}
+
+/* ---- Browser Container ----- */
+
+/*// Colors //*/
+
+.no-support {
+	background-color: #ff6668;
+}
+
+.some-support {
+	background-color: #f3a75b;
+}
+
+.full-support {
+	background-color: #5dd170;
+}
+
+.support {
+	border-radius: 4px;
+	height: 40px;
+	width: 60px;
+  margin-right: 12px;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.support.active {
+	transform: scaleX(1.1) scaleY(1.1);
+}
+
+legend .support {
+	height: 20px;
+	width: 30px;
+	margin-right: 10px;
+}
+legend .support + span {
+	font-size: 14px;
+	color: #7b7b7b;
+	margin-right: 20px;
+}
+
+.browser-compatibility legend {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.browser-compatibility section {
+  padding: 16px 30px;
+  margin-bottom: 12px;
+	background-color: #fff;
+}
+
+.browser-compatibility-overview {
+	display: flex;
+  align-items: center;
+}
+
+.browser {
+	display: flex;
+  align-items: center;
+  width: 220px;
+}
+
+.browser img {
+	margin-right: 14px;
+}
+
+.browser h5 {
+	display: inline-block;
+	color: #7b7b7b;
+}
+
+.support-info {
+	display: flex;
+	position: relative;
+	align-items: center;
+	margin: 12px 0;
+	padding: 20px 30px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.support-info > div {
+  align-self: flex-start;
+}
+
+.support-info h4 {
+	font-weight: 400;
+  font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.support-info p {
+	font-weight: 300;
+}
+
+.support-info ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.support-info ul > li {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+p.updated {
+	color: rgba(255,255,255, .5);
+	margin-top: 20px;
+}
+
+.divide {
+	display: inline-block;
+	width: 1px;
+	height: 120px;
+	margin: 0 20px;
+	background-color: rgba(255,255,255,.5);
+}
+
+.num {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 26px;
+  margin-right: 12px;
+  border: solid 1px #fff;
+  border-radius: 50%;
+  font-weight: 400;
+}
+
+
+
+.close span {
+	display: inline-block;
+	position: relative;
+  height: 4px;
+  width: 24px;
+	border-radius: 2px;
+	background-color: #fff;
+}
+
+.close span:first-child{
+	transform: rotate(-45deg) translateY(-6px);
+	right: -8px;
+  top: 2px;
+}
+
+.close span:nth-child(2) {
+	transform: rotate(45deg) translateY(-6px);
+	top: -23px;
+}
+

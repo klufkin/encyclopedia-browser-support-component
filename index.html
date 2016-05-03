@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Browser Support Molecule</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="browser-support-molecule.css">
   <link rel="stylesheet" href="kl-styles.css">
@@ -18,11 +19,125 @@
   <section>
   	<header>
 	  	<h3>Syntax & Default</h3>
+	  	<div class="section-dropdown">
+	  		<span></span>
+	  		<span></span>
+	  	</div>
   	</header>
   	<main>
 	  	<h4>Subtitle Here</h4>
 	  	<p>Explanation goes here.</p>
 	  	<p>var myArray = [6,5,4,3,1,2];</p>
+	  	<p>This is a paragraph note.</p>
+	  </main>
+  </section>
+
+  <section>
+  	<header>
+	  	<h3>Browser Compatibility</h3>
+	  	<div class="section-dropdown">
+	  		<span></span>
+	  		<span></span>
+	  	</div>
+  	</header>
+  	<main class="browser-compatibility">
+	  	<legend> 
+				<div class="support no-support"></div><span>Not Supported</span>
+				<div class="support some-support"></div><span>Support with Shim/Polyfill/etc.</span>
+				<div class="support full-support"></div><span>Full Suport</span>
+	  	</legend>
+
+	  	<section>
+	  		<div class="browser-compatibility-overview">
+		  		<div class="browser">
+		  			<img src="http://placehold.it/40x40"><h5>Internet Explorer</h5>
+		  		</div>
+
+		  		<div class="support no-support">7</div>
+		  		<div class="support some-support active">8</div>
+		  		<div class="support full-support">9</div>
+		  		<div class="support full-support">10</div>
+		  		<div class="support full-support">11</div>
+		  	</div>
+
+	  		<div class="support-info some-support">
+	  			<div class="support-info-users">
+	  				<h4>Users Using It</h4>
+
+	  				<p>United States: <strong>4</strong>%</p>
+	  				<p>Worldwide: <strong>2</strong>%</p>
+
+	  				<p class="updated"><strong>Updated:</strong> January 1st, 2016</p>
+	  			</div>
+
+	  			<div class="divide"></div>
+
+	  			<div class="support-info-add">
+	  				<h4>How to Add Support</h4>
+						<ul>
+							<li>
+								<div class="num">1</div>
+			  				<p><strong>HTML 5 Boilerplate:</strong> add support for .sort() support for IE8</p>
+			  			</li>
+			  			<li>
+								<div class="num">2</div>
+			  				<p><strong>HTML 5 Boilerplate:</strong> add support for .sort() support for IE8</p>
+			  			</li>
+						</ul>
+	  			</div>
+	  			<div class="divide"></div>
+
+	  			<div class="support-info-version">
+	  				<h4>Should You Support this Version</h4>
+						<ul>
+							<li>
+								<div class="num">1</div>
+			  				<p><strong>Info or link here</strong> </p>
+			  			</li>
+			  			<li>
+								<div class="num">2</div>
+			  				<p><strong>Info or link here</strong> </p>
+			  			</li>
+						</ul>
+	  			</div>
+
+	  			<div class="close">
+		  			<span></span>
+		  			<span></span>
+	  			</div>
+	  		</div>
+
+	  		
+	  	</section>
+
+	  	<section>
+	  		<div class="browser-compatibility-overview">
+		  		<div class="browser">
+		  			<img src="http://placehold.it/40x40"><h5>Internet Explorer</h5>
+		  		</div>
+
+		  		<div class="support no-support">7</div>
+		  		<div class="support some-support">8</div>
+		  		<div class="support full-support">9</div>
+		  		<div class="support full-support">10</div>
+		  		<div class="support full-support">11</div>
+		  	</div>
+	  	</section>
+
+	  		<section>
+	  		<div class="browser-compatibility-overview">
+		  		<div class="browser">
+		  			<img src="http://placehold.it/40x40"><h5>Internet Explorer</h5>
+		  		</div>
+
+		  		<div class="support no-support">7</div>
+		  		<div class="support some-support">8</div>
+		  		<div class="support full-support">9</div>
+		  		<div class="support full-support">10</div>
+		  		<div class="support full-support">11</div>
+		  	</div>
+	  	</section>
+
 	  </main>
   </section>
 </div>
