@@ -1,0 +1,218 @@
+
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*  Use for layouting out page only  */
+
+* {
+  border: 1px solid black;
+
+}
+
+
+body {
+ font-family: 'Roboto', sans-serif;
+ font-size: 17px;
+
+
+}
+
+.border {
+        border: 1px solid #7b7b7b;
+        width: auto;
+}
+
+
+h1 {
+  font-weight: 200;
+  font-size: 3em;
+}
+
+
+h2, h3, h4 {
+  font-weight: 400;
+}
+
+
+p {
+  color: #7b7b7b;
+}
+
+
+#container { 
+ margin-left: 80px;
+ 
+}
+
+
+#main,#sidebar {
+  
+  float: left;
+}
+
+
+ul li {
+  list-style: none;
+  margin-left: -40px;
+  color: #8c8388;
+
+}
+
+
+.line-height {
+  margin-bottom: -15px;
+
+}
+
+
+#main {
+ 
+  width: 700px;
+  padding: 10px 10px 30px 0;
+
+}
+
+#sidebar {
+ 
+  border-left: 1px solid #d279a6;
+  width: 300px;
+  padding: 20px 0 0 20px;
+  background-color: #fff7fc;
+  
+}
+
+
+#footer {
+  clear: both;
+  width: 1060px;
+  padding: 10px 10px 10px 0;
+  
+}
+
+
+
+button {
+  border-radius: 5px; 
+  color: #ffffff;
+  border-color: #00c5e3;
+  background-color: #00c5e3;
+  padding: 8px;
+  border: none;
+  width: 120px;
+  margin-right: 5px;
+ 
+}
+
+
+button:active {
+  
+  border-color: white;
+  background-color: red;
+  color: white
+ 
+}
+
+
+.example {
+   border: 1px solid #00c5e3;
+   border-radius: 5px;
+   margin-top: -20px;
+   padding: 20px;
+   height: 130px;
+
+}
+
+
+.example p {
+  margin: 0;
+  font-weight: 300;
+}
+
+.example p span {
+  font-weight: 400;
+}
+
+#sidebar h3 {
+  
+   color: #d279a6;
+
+}
+
+
+#sidebar h4 {
+
+  color: #4d1933;
+
+}
+
+
+#mod_dev {
+  color: #bf4080;
+
+}
+
+
+span {
+  color: white;
+  border-radius: 50%;
+  padding: 3px;
+  margin-right: 3px;
+  font-size: 12px;
+}
+
+
+.question span {
+  background-color: #f8bcd9;
+}
+
+
+.answer span {
+  background-color: #e1c6d4;
+
+}
+
+
+.answer {
+  color: #5dd170;
+
+}
+
+
+h3 {
+  margin-bottom: -15px;
+}
+
+
+#sidediv {
+   border: 1px solid #e6b3cc;
+   margin: 10px;
+
+}
+
+
+.arrow-down {
+  width: 20px; 
+  height: 20px; 
+  margin-left: 50px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #00c5e3;
+
+  
+}
+
+.right-side {
+  position: relative;
+  left: 130px;
+  top: -20px;
+}
+
+
+ol li {
+  font-size: 14px;
+}
+
