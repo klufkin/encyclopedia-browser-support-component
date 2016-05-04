@@ -35,4 +35,8 @@ This is where we can list summaries of the work we've performed on the repositor
 5. Code HTML elements for assigned components **(Jayme Phimmachack) (04/27/16)**
 6. Add some CSS style - Need to tweak it to get it similar to project example **(Jayme Phimmachack) (04/28/16)**
 7. Add html class and also add and modify CSS style - Still need minor adjustment**(Jayme Phimmachack) (05/01/16)**
+8. Created Component 2 html and css  **(Kevin Lufkin) (04/30/16)**
+9. Created Component 3 html and css and tweaked component 2  **(Kevin Lufkin) (05/02/16)**
+10. Merged team's html and css, add additional styling tweaks to component 3  **(Kevin Lufkin) (05/03/16)**
+
 
