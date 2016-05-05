@@ -6,8 +6,7 @@
    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="browser-support-molecule.css">
-  <link rel="stylesheet" href="style.css">
-</head>
+  </head>
 <body>
 
 <div class="browser-support">
@@ -15,15 +14,17 @@
   INSTRUCTIONS:
   Write your HTML Here, and your CSS inside of browser-support-molecule.css
   -->
+          <!-- Comp 1 Main Page --> 
 
-	   <div id="container">
-	      <div id="main">
+
+	    <div id="main">
+
 	          <h1 class="title" id="title">.sort()</h1>
 	          <p class="description" id="description">
 	            The sort() method sorts the elements of an array in place and returns the array. The sort is not necessarily stable. The default sort order is according to string Unicode code points.
 	          </p>
 
-	     			<div class="border"></div>
+	     			<div class="divider"></div>
 	          <h2>Examples</h2>
 	          <h3>First Example Title</h3>
 	          <p>
@@ -33,7 +34,7 @@
 	          <button class="button">Javascript</button>
 	          <button class="button">Result</button>
 	          <div class="arrow-down"></div>
-	          <div class="arrow-down right-side"></div>
+	          <div class="arrow-down right-side-arrow"></div>
 
 	          <div class="example">
 	            <p>var myArray = [6,5,4,3,2,1];</p>
@@ -54,7 +55,7 @@
 	          
 	          <button>Result</button>
 	          <div class="arrow-down"></div>
-	          <div class="arrow-down right-side"></div>
+	          <div class="arrow-down right-side-arrow"></div>
 	          <div class="example">
 	            <p>var myArray = [6,5,4,3,2,1];</p>
 	            <p>myArray.sort();</p>
@@ -64,7 +65,8 @@
 	          <p>
 	            Briefly explain the example code here.
 	          </p>
-
+              
+            <div class="divider"></div>
 
 	          <!-- Comp 2 -->
 	           <section>
@@ -83,31 +85,33 @@
 						  </main>
 					  </section>
 
-	    </div>
+		</div>		  
 
+	    
+	     <!-- Comp 4 Sidebar -->
 
-	    <div class="border"></div>
 	    <div id="sidebar">
 	        <div>
-	          <h3 class="line-height">Related Questions and Answers</h3>
-	          <h4 class="line-height" id="mod_dev">&mdash; QA.Modern Developer</h4>
+	          <h3 class="sidebar-line-height">Related Questions and Answers</h3>
+	          <h4 class="sidebar-line-height" id="mod_dev">&mdash; QA.Modern Developer</h4>
 	            <ul>
-	              <li class="question"><span>Q</span>How Do I Create Custom Sort in Javascript</li>
-	              <li class="answer"><span>A</span>No</li>
-	              <li class="question"><span>Q</span>Error Sorting Object in Array</li>
-	              <li class="answer"><span>A</span>Yes</li>
-	              <li class="question"><span>Q</span>Error Sorting Object in Array</li>
-	              <li class="answer"><span>A</span>Yes</li>
+	              <li class="question"><span class="qa">Q</span>How Do I Create Custom Sort in Javascript</li>
+	              <li class="answer"><span class="qa">A</span>No</li>
+	              <li class="question"><span class="qa">Q</span>Error Sorting Object in Array</li>
+	              <li class="answer"><span class="qa">A</span>Yes</li>
+	              <li class="question"><span class="qa">Q</span>Error Sorting Object in Array</li>
+	              <li class="answer"><span class="qa">A</span>Yes</li>
 	            </ul>
 
 	          <a>All related questions on QA</a>
 	        </div>
 
-	        <div id="sidediv"></div>
+	        <div id="sidebar-divider"></div>
 
 	        <div>
-	          <h3 class="line-height">Other Array Methods</h3>
-	          <h4 class="line-height">Native Javascript Methods</h4>
+
+	          <h3 class="sidebar-line-height">Other Array Methods</h3>
+	          <h4 class="sidebar-line-height">Native Javascript Methods</h4>
 	            <ul>
 	              <li>shift()</li>
 	              <li>reverse()</li>
@@ -117,8 +121,8 @@
 	              <li>shift()</li>
 	            </ul>
 
-	          <h4 class="line-height">Non-Native Methods</h4>
-	          <h5 class="line-height">&mdash; Lodash</h5>
+	          <h4 class="sidebar-line-height">Non-Native Methods</h4>
+	          <h5 class="sidebar-line-height">&mdash; Lodash</h5>
 	            <ul>
 	              <li>_.chunk</li>
 	              <li>_.compact</li>
@@ -137,16 +141,18 @@
 	              <li>_.drop</li>
 	              <li>_.dropRight</li>  
 	            </ul>
-	          <h5 class="line-height">&mdash; Modern Developer</h5>
+	          <h5 class="sidebar-line-height">&mdash; Modern Developer</h5>
 	            <ul>
 	              <li>_.pushUnique</li>
 	              <li>_.deleteUnique</li>
 	           </ul>
 	        </div>
+	        
 	   </div>
-	 </div>
+    
+      
 
-  <!-- Comp 3 Browser Support -->
+      <!-- Comp 3 Browser Support -->
 	<section>
   	<header>
 	  	<h3>Browser Compatibility</h3>
@@ -240,20 +246,22 @@
 	  	</section>
 
 	  		<section>
-	  		<div class="browser-compatibility-overview">
-		  		<div class="browser">
-		  			<img src="http://placehold.it/40x40"><h5>Internet Explorer</h5>
-		  		</div>
+		  		<div class="browser-compatibility-overview">
+			  		<div class="browser">
+			  			<img src="http://placehold.it/40x40"><h5>Internet Explorer</h5>
+			  		</div>
 
-		  		<div class="support no-support">7</div>
-		  		<div class="support some-support">8</div>
-		  		<div class="support full-support">9</div>
-		  		<div class="support full-support">10</div>
-		  		<div class="support full-support">11</div>
-		  	</div>
-	  	</section>
+			  		<div class="support no-support">7</div>
+			  		<div class="support some-support">8</div>
+			  		<div class="support full-support">9</div>
+			  		<div class="support full-support">10</div>
+			  		<div class="support full-support">11</div>
+			  	</div>
+	  	    </section>
  		</main>
   </section>
+    
+     <!-- Comp 5 Footer -->
 
 	 <div id="footer">
 
@@ -273,8 +281,12 @@
 	          <li>CanIUse, CSS background-attachment, <a href="#">http://caniuse.com/#feat=background-attachment</a> </li>
 	          <li>CanIUse, CSS background-attachment, <a href="#">http://caniuse.com/#feat=background-attachment</a> </li>
 	        </ol>
-	  </div>
-
 	</div>
+
+</div>	
+        
+	   
+
+
 </body>
 </html>
