@@ -39,6 +39,7 @@ This is where we can list summaries of the work we've performed on the repositor
 9. Created Component 3 html and css and tweaked component 2  **(Kevin Lufkin) (05/02/16)**
 10. Merged team's html and css, add additional styling tweaks to component 3  **(Kevin Lufkin) (05/03/16)**
 11. Remove unnecessary stylesheet, update index.html and browser-support-molecule.css**(Jayme Phimmachack) (05/04/16)**
+12. Updated index.html and browser-support-molecule.css to fix squished circles of browser support and sidebar, and adjust close icon.  **(Kevin Lufkin) (05/05/16)**
 
 
 
