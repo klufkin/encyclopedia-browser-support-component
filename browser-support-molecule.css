@@ -386,49 +386,33 @@ ol li {
 /*----- Sidebar (Component 5) -----*/
 
 
-.question span {
+.question div {
   background-color: #f8bcd9;
 }
 
-
-.answer span {
+.answer div {
   background-color: #e1c6d4;
-
-}
-
-
-.answer {
-  color: #5dd170;
-
 }
 
 #sidebar h3 {
-  
    color: #f38cbe;
-   
    font-size: 1.5em;
-
 }
 
 
 #sidebar h4 {
-
   color: #808080;
   font-size: 1.2em;
-
 }
 
 #sidebar h5 {
-
   color: #808080;
   font-size: 1em;
   margin-top: 18px;
-
 }
 
-#mod_dev {
-  color: #ee5da3;
-
+h4#mod_dev {
+  color: #FF73B7;
 }
 
 
@@ -439,13 +423,11 @@ ol li {
 }
 
 #sidebar {
- 
   border-left: 1px solid #d279a6;
   width: 25%;
   padding: 20px 0 0 20px;
   background-color: #fff7fc;
   font-weight: 200;
-  
 }
 
 
@@ -453,17 +435,44 @@ ul li {
   list-style: none;
   margin-left: -40px;
   color: #8c8388;
+}
 
+ul li.question:first-child {
+	margin-top: 30px;
+}
+li.question {
+	display: flex;
+	align-items: baseline;
+	margin-top: 20px;
+}
+
+li.answer {
+	margin-top: 6px;
 }
 
 .qa {
+	display: inline-block;
   color: white;
   border-radius: 50%;
-  padding: 3px;
-  margin-right: 3px;
+  height: 24px;
+  min-width: 24px; 
+  margin-right: 10px;
   font-size: 12px;
+  text-align: center;
 }
 
+.qa + p {
+	display: inline-block;
+	margin: 0;
+}
+
+.qa + p.yes {
+  color: #5dd170;
+}
+
+.qa + p.no {
+  color: #E2C6D4;
+}
 
 .sidebar-line-height {
   margin-bottom: -15px;
