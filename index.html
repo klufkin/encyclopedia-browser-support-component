@@ -10,283 +10,296 @@
 <body>
 
 <div class="browser-support">
-  <!--
-  INSTRUCTIONS:
-  Write your HTML Here, and your CSS inside of browser-support-molecule.css
-  -->
-          <!-- Comp 1 Main Page --> 
 
+<!-- Comp 1 Main Page --> 
 
-	    <div id="main">
+	<main class="container">
+		    <article class="main">
+	        <h1 class="title" id="title">.sort <span class="parentheses">( )</span></h1>
+	        <p class="description" id="description">
+	          The sort() method sorts the elements of an array in place and returns the array. The sort is not necessarily stable. The default sort order is according to string Unicode code points.
+	        </p>
 
-	          <h1 class="title" id="title">.sort()</h1>
-	          <p class="description" id="description">
-	            The sort() method sorts the elements of an array in place and returns the array. The sort is not necessarily stable. The default sort order is according to string Unicode code points.
-	          </p>
-
-	     			<div class="divider"></div>
-	          <h2>Examples</h2>
-	          <h3>First Example Title</h3>
-	          <p>
-	            Introduce the example. Introduce the example. Introduce the example. 
-	          </p>
-
-	          <button class="button">Javascript</button>
-	          <button class="button">Result</button>
-	          <div class="arrow-down"></div>
-	          <div class="arrow-down right-side-arrow"></div>
-
-	          <div class="example">
-	            <p>var myArray = [6,5,4,3,2,1];</p>
-	            <p>myArray.sort();</p>
-	            <p>console.log(myArray); // -> 1,2,3,4,5,6</p>
+	   			<hr>
+	        <h2>Examples</h2>
+	        <h3>First Example Title</h3>
+	        <p>
+	          Introduce the example. Introduce the example. Introduce the example. 
+	        </p>
+						
+					<div class="code-example">
+	          <div class="code-example-tab active">Javascript</div><div class="code-example-tab">Result</div>
+	       		<div class="code-example-view">
+	            <p>1. var myArray = [6,5,4,3,2,1];</p>
+	            <p>2. myArray.sort();</p>
+	            <p>3. console.log(myArray); // -> 1,2,3,4,5,6</p>
 	          </div>
-
-	          <p>
-	            Briefly explain the example code here.
-	          </p>
-
-	          <h3>Second Example Title</h3>
-	          <p>
-	            Introduce the example. Introduce the example. Introduce the example. 
-	          </p>
-
-	          <button>Javascript</button>
-	          
-	          <button>Result</button>
-	          <div class="arrow-down"></div>
-	          <div class="arrow-down right-side-arrow"></div>
-	          <div class="example">
-	            <p>var myArray = [6,5,4,3,2,1];</p>
-	            <p>myArray.sort();</p>
-	            <p>console.log(myArray); // -> 1,2,3,4,5,6</p>
-	          </div>
-
-	          <p>
-	            Briefly explain the example code here.
-	          </p>
-              
-            <div class="divider"></div>
-
-	          <!-- Comp 2 -->
-	           <section class="unit-container">
-					  	<header>
-						  	<h3>Syntax & Default</h3>
-						  	<div class="section-dropdown">
-						  		<span></span>
-						  		<span></span>
-						  	</div>
-					  	</header>
-					  	<main>
-						  	<h4>Subtitle Here</h4>
-						  	<p>Explanation goes here.</p>
-						  	<p>var myArray = [6,5,4,3,1,2];</p>
-						  	<p>This is a paragraph note.</p>
-						  </main>
-					  </section>
-
-		</div>		  
-
-	    
-	     <!-- Comp 4 Sidebar -->
-
-	    <div id="sidebar">
-	        <div>
-	          <h3 class="sidebar-line-height">Related Questions and Answers</h3>
-	          <h4 class="sidebar-line-height" id="mod_dev">&mdash; QA.Modern Developer</h4>
-	            <ul>
-	              <li class="question"><div class="qa">Q</div><p>How Do I Create Custom Sort in Javascript</p></li>
-	              <li class="answer"><div class="qa">A</div><p class="no">No</p</li>
-	              <li class="question"><div class="qa">Q</div><p>Error Sorting Object in Array</p></li>
-	              <li class="answer"><div class="qa">A</div><p class="yes">Yes</p></li>
-	              <li class="question"><div class="qa">Q</div><p>Error Sorting Object in Array</p></li>
-	              <li class="answer"><div class="qa">A</div><p class="yes">Yes</p></li>
-	            </ul>
-
-	          <a>All related questions on QA</a>
 	        </div>
 
-	        <div id="sidebar-divider"></div>
+	        <p> Briefly explain the example code here.</p>
 
-	        <div>
+	        <h3>Second Example Title</h3>
+	        <p>Introduce the example. Introduce the example. Introduce the example. </p>
 
-	          <h3 class="sidebar-line-height">Other Array Methods</h3>
-	          <h4 class="sidebar-line-height">Native Javascript Methods</h4>
-	            <ul>
-	              <li>shift()</li>
-	              <li>reverse()</li>
-	              <li>pop()</li>
-	              <li>push()</li>
-	              <li>slice()</li>
-	              <li>shift()</li>
-	            </ul>
-
-	          <h4 class="sidebar-line-height">Non-Native Methods</h4>
-	          <h5 class="sidebar-line-height">&mdash; Lodash</h5>
-	            <ul>
-	              <li>_.chunk</li>
-	              <li>_.compact</li>
-	              <li>_.concat</li>
-	              <li>_.difference</li> 
-	              <li>_.differenceBy</li>
-	              <li>_.differenceWith</li>
-	              <li>_.drop</li>
-	              <li>_.dropRight</li> 
-	              <li>_.chunk</li>
-	              <li>_.compact</li>
-	              <li>_.concat</li>
-	              <li>_.difference</li>
-	              <li>_.differenceBy</li>
-	              <li>_.differenceWith</li>
-	              <li>_.drop</li>
-	              <li>_.dropRight</li>  
-	            </ul>
-	          <h5 class="sidebar-line-height">&mdash; Modern Developer</h5>
-	            <ul>
-	              <li>_.pushUnique</li>
-	              <li>_.deleteUnique</li>
-	           </ul>
+	        <div class="code-example">
+	          <div class="code-example-tab active">Javascript</div><div class="code-example-tab">Result</div>
+	       		<div class="code-example-view">
+	            <p>1. var myArray = [6,5,4,3,2,1];</p>
+	            <p>2. myArray.sort();</p>
+	            <p>3. console.log(myArray); // -> 1,2,3,4,5,6</p>
+	          </div>
 	        </div>
-	        
-	   </div>
-    
-      
+
+	        <p>Briefly explain the example code here.</p>
+	              
+	        <hr>
+
+	        <!-- Comp 2 -->
+	         <section class="unit-container">
+				  	<header>
+					  	<h3>Syntax & Default</h3>
+					  	<div class="arrow">
+					  		<span></span>
+					  		<span></span>
+					  	</div>
+				  	</header>
+				  	<main>
+					  	<h4>Subtitle Here</h4>
+					  	<p>Explanation goes here.</p>
+					  	<p>var myArray = [6,5,4,3,1,2];</p>
+					  	<p>This is a paragraph note.</p>
+					  </main>
+				  </section>
+
+				    <section class="unit-container">
+				  	<header>
+					  	<h3>Additional Examples</h3>
+					  	<div class="arrow">
+					  		<span></span>
+					  		<span></span>
+					  	</div>
+				  	</header>
+				  	<main>
+					  	<h4>First Example Title</h4>
+					  	<p>Introduce the example, introduce the example, introduce the example.</p>
+					  	
+					  	<div class="code-example">
+			          <div class="code-example-tab active">Javascript</div><div class="code-example-tab">Result</div>
+			       		<div class="code-example-view">
+			            <p>1. var myArray = [6,5,4,3,2,1];</p>
+			            <p>2. myArray.sort();</p>
+			            <p>3. console.log(myArray); // -> 1,2,3,4,5,6</p>
+			          </div>
+			        </div>
+			        <p>Briefly explain the code example here.</p>
+			        
+			        <hr>
+
+			        <h4>Second Example Title</h4>
+					  	<p>Introduce the example, introduce the example, introduce the example.</p>
+					  	<div class="code-example">
+			          <div class="code-example-tab active">Javascript</div><div class="code-example-tab">Result</div>
+			       		<div class="code-example-view">
+			            <p>1. var myArray = [6,5,4,3,2,1];</p>
+			            <p>2. myArray.sort();</p>
+			            <p>3. console.log(myArray); // -> 1,2,3,4,5,6</p>
+			          </div>
+			        </div>
+			        <p>Briefly explain the code example here.</p>
+					  </main>
+				  </section>
+			</article>		  
+		     <!-- Comp 4 Sidebar -->
+		  <div class="sidebar">
+	      <div class="sidebar-container">
+	        <h3>Related Questions and Answers</h3>
+	        <h4 class="qa">&mdash; QA.Modern Developer</h4>
+	          <ul>
+	            <li class="question"><div class="qa">Q</div><p>How Do I Create Custom Sort in Javascript</p></li>
+	            <li class="answer no"><div class="qa">A</div><p>No</p</li>
+	            <li class="question"><div class="qa">Q</div><p>Error Sorting Object in Array</p></li>
+	            <li class="answer yes"><div class="qa">A</div><p>Yes</p></li>
+	            <li class="question"><div class="qa">Q</div><p>Error Sorting Object in Array</p></li>
+	            <li class="answer yes"><div class="qa">A</div><p>Yes</p></li>
+	          </ul>
+
+	        <a href="#">
+		        <div class="link-arrow">
+		        	All related questions on QA
+			        <div class="arrow">
+					  		<span></span>
+					  		<span></span>
+				  		</div>
+				  	</div>
+		  		</a>
+	        <hr>
+	      </div>
+
+	      <div class="sidebar-container">
+	        <h3>Other Array Methods</h3>
+	        <h4>Native Javascript Methods</h4>
+	          <ul>
+	            <li>shift()</li>
+	            <li>reverse()</li>
+	            <li>pop()</li>
+	            <li>push()</li>
+	            <li>slice()</li>
+	            <li>shift()</li>
+	          </ul>
+
+	        <h4>Non-Native Methods</h4>
+	        <h5>&mdash; Lodash</h5>
+	          <ul>
+	            <li>_.chunk</li>
+	            <li>_.compact</li>
+	            <li>_.concat</li>
+	            <li>_.difference</li> 
+	            <li>_.differenceBy</li>
+	            <li>_.differenceWith</li>
+	            <li>_.drop</li>
+	            <li>_.dropRight</li> 
+	            <li>_.chunk</li>
+	            <li>_.compact</li>
+	            <li>_.concat</li>
+	            <li>_.difference</li>
+	            <li>_.differenceBy</li>
+	            <li>_.differenceWith</li>
+	            <li>_.drop</li>
+	            <li>_.dropRight</li>  
+	          </ul>
+	        <h5>&mdash; Modern Developer</h5>
+	          <ul>
+	            <li>_.pushUnique</li>
+	            <li>_.deleteUnique</li>
+	         </ul>
+	      </div> 
+		  </div>
+	</main>     
 
       <!-- Comp 3 Browser Support -->
-	<section class="unit-container">
-  	<header>
-	  	<h3>Browser Compatibility</h3>
-	  	<div class="section-dropdown">
-	  		<span></span>
-	  		<span></span>
-	  	</div>
-  	</header>
-  	<main class="browser-compatibility">
-	  	<legend> 
-				<div class="support no-support"></div><span>Not Supported</span>
-				<div class="support some-support"></div><span>Support with Shim/Polyfill/etc.</span>
-				<div class="support full-support"></div><span>Full Suport</span>
-	  	</legend>
-
-	  	<section>
-	  		<div class="browser-compatibility-overview">
-		  		<div class="browser">
-		  			<img src="http://placehold.it/40x40"><h5>Internet Explorer</h5>
-		  		</div>
-
-		  		<div class="support no-support">7</div>
-		  		<div class="support some-support active">8</div>
-		  		<div class="support full-support">9</div>
-		  		<div class="support full-support">10</div>
-		  		<div class="support full-support">11</div>
+		<section class="unit-container">
+	  	<header>
+		  	<h3>Browser Compatibility</h3>
+		  	<div class="arrow">
+		  		<span></span>
+		  		<span></span>
 		  	</div>
+	  	</header>
+	  	<main class="browser-compatibility">
+		  	<legend> 
+					<div class="support no-support"></div><span>Not Supported</span>
+					<div class="support some-support"></div><span>Support with Shim/Polyfill/etc.</span>
+					<div class="support full-support"></div><span>Full Suport</span>
+		  	</legend>
 
-	  		<div class="support-info some-support">
-	  			<div class="support-info-users">
-	  				<h4>Users Using It</h4>
-
-	  				<p>United States: <strong>4</strong>%</p>
-	  				<p>Worldwide: <strong>2</strong>%</p>
-
-	  				<p class="updated"><strong>Updated:</strong> January 1st, 2016</p>
-	  			</div>
-
-	  			<div class="divide"></div>
-
-	  			<div class="support-info-add">
-	  				<h4>How to Add Support</h4>
-						<ul>
-							<li>
-								<div class="num">1</div>
-			  				<p><strong>HTML 5 Boilerplate:</strong> add support for .sort() support for IE8</p>
-			  			</li>
-			  			<li>
-								<div class="num">2</div>
-			  				<p><strong>HTML 5 Boilerplate:</strong> add support for .sort() support for IE8</p>
-			  			</li>
-						</ul>
-	  			</div>
-	  			<div class="divide"></div>
-
-	  			<div class="support-info-version">
-	  				<h4>Should You Support this Version</h4>
-						<ul>
-							<li>
-								<div class="num">1</div>
-			  				<p><strong>Info or link here</strong> </p>
-			  			</li>
-			  			<li>
-								<div class="num">2</div>
-			  				<p><strong>Info or link here</strong> </p>
-			  			</li>
-						</ul>
-	  			</div>
-
-	  			<div class="close">
-		  			<span></span>
-		  			<span></span>
-	  			</div>
-	  		</div>
-
-	  		
-	  	</section>
-
-	  	<section>
-	  		<div class="browser-compatibility-overview">
-		  		<div class="browser">
-		  			<img src="http://placehold.it/40x40"><h5>Internet Explorer</h5>
-		  		</div>
-
-		  		<div class="support no-support">7</div>
-		  		<div class="support some-support">8</div>
-		  		<div class="support full-support">9</div>
-		  		<div class="support full-support">10</div>
-		  		<div class="support full-support">11</div>
-		  	</div>
-	  	</section>
-
-	  		<section>
+		  	<section>
 		  		<div class="browser-compatibility-overview">
 			  		<div class="browser">
 			  			<img src="http://placehold.it/40x40"><h5>Internet Explorer</h5>
 			  		</div>
 
 			  		<div class="support no-support">7</div>
+			  		<div class="support some-support active">8</div>
+			  		<div class="support full-support">9</div>
+			  		<div class="support full-support">10</div>
+			  		<div class="support full-support">11</div>
+			  	</div>
+
+		  		<div class="support-info">
+		  			<div class="support-info-users">
+		  				<h4>Users Using It</h4>
+
+		  				<p>United States: <strong>4%</strong></p>
+		  				<p>Worldwide: <strong>2%</strong></p>
+
+		  				<p class="updated"><strong>Updated:</strong> January 1st, 2016</p>
+		  			</div>
+
+		  			<div class="divide"></div>
+
+		  			<div class="support-info-add">
+		  				<h4>How to Add Support</h4>
+							<ul>
+								<li>
+									<div class="num">1</div>
+				  				<p><strong>HTML 5 Boilerplate:</strong> add support for .sort() support for IE8</p>
+				  			</li>
+				  			<li>
+									<div class="num">2</div>
+				  				<p><strong>HTML 5 Boilerplate:</strong> add support for .sort() support for IE8</p>
+				  			</li>
+							</ul>
+		  			</div>
+		  			<div class="divide"></div>
+
+		  			<div class="support-info-version">
+		  				<h4>Should You Support this Version</h4>
+							<ul>
+								<li>
+									<div class="num">1</div>
+				  				<p><strong>Info or link here</strong> </p>
+				  			</li>
+				  			<li>
+									<div class="num">2</div>
+				  				<p><strong>Info or link here</strong> </p>
+				  			</li>
+							</ul>
+		  			</div>
+
+		  			<div class="close">
+			  			<span></span>
+			  			<span></span>
+		  			</div>
+		  		</div>
+		  	</section>
+
+		  	<section>
+		  		<div class="browser-compatibility-overview">
+			  		<div class="browser">
+			  			<img src="http://placehold.it/40x40"><h5>Internet Explorer</h5>
+			  		</div>
+			  		<div class="support no-support">7</div>
 			  		<div class="support some-support">8</div>
 			  		<div class="support full-support">9</div>
 			  		<div class="support full-support">10</div>
 			  		<div class="support full-support">11</div>
 			  	</div>
-	  	    </section>
- 		</main>
-  </section>
-    
-     <!-- Comp 5 Footer -->
+		  	</section>
 
-	 <div id="footer">
+		  		<section>
+			  		<div class="browser-compatibility-overview">
+				  		<div class="browser">
+				  			<img src="http://placehold.it/40x40"><h5>Internet Explorer</h5>
+				  		</div>
+				  		<div class="support no-support">7</div>
+				  		<div class="support some-support">8</div>
+				  		<div class="support full-support">9</div>
+				  		<div class="support full-support">10</div>
+				  		<div class="support full-support">11</div>
+				  	</div>
+		  	    </section>
+	 		</main>
+	  </section>
+	    
+	     <!-- Comp 5 Footer -->
 
-	    <h3 class="component 5"> Related Articles</h3>
-	        <ol>
-	          <li>Creating Custom Sort with JavaScript</li>
-	          <li>Sorting an Array of Objects</li>
-	          <li>Creating Custom Sort with JavaScript</li>
-	          <li>Sorting an Array of Objects</li>
-	        </ol>
+		 <footer>
+		    <h3> Related Articles</h3>
+		        <ol>
+		          <li>Creating Custom Sort with JavaScript</li>
+		          <li>Sorting an Array of Objects</li>
+		          <li>Creating Custom Sort with JavaScript</li>
+		          <li>Sorting an Array of Objects</li>
+		        </ol>
 
-	        <h3 class="title">References</h3>
-
-	        <ol>
-	          <li>CanIUse, CSS background-attachment, <a href="#">http://caniuse.com/#feat=background-attachment</a> </li>
-	          <li>CanIUse, CSS background-attachment, <a href="#">http://caniuse.com/#feat=background-attachment</a> </li>
-	          <li>CanIUse, CSS background-attachment, <a href="#">http://caniuse.com/#feat=background-attachment</a> </li>
-	          <li>CanIUse, CSS background-attachment, <a href="#">http://caniuse.com/#feat=background-attachment</a> </li>
-	        </ol>
-	</div>
-
-</div>	
-        
-	   
-
-
+	      <h3>References</h3>
+		        <ol>
+		          <li>CanIUse, CSS background-attachment, <a href="#">http://caniuse.com/#feat=background-attachment</a> </li>
+		          <li>CanIUse, CSS background-attachment, <a href="#">http://caniuse.com/#feat=background-attachment</a> </li>
+		          <li>CanIUse, CSS background-attachment, <a href="#">http://caniuse.com/#feat=background-attachment</a> </li>
+		          <li>CanIUse, CSS background-attachment, <a href="#">http://caniuse.com/#feat=background-attachment</a> </li>
+		        </ol>
+		</footer>
+	</div>	
 </body>
 </html>
