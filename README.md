@@ -42,6 +42,7 @@ This is where we can list summaries of the work we've performed on the repositor
 12. Updated index.html and browser-support-molecule.css to fix squished circles of browser support and sidebar, and adjust close icon.  **(Kevin Lufkin) (05/05/16)**
 13. Applied class selection styling for section html tags **(Kevin Lufkin) (05/06/16)**
 14. Applied new styling to encyclopedia, cleaned up and reformatted stucture of some HTML and CSS **(Kevin Lufkin) (05/28-30/16)**
+15. Filled out data object to populate cheat sheet article **(Kevin Lufkin) (06/21/16)**
 
 
 
